@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/vuepress-blog/',
   title: '忒提斯',
   description: '让我们开始吧!',
   head:[
