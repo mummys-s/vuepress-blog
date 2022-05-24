@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: code.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+heroText: 小房的前端学习
+tagline: 大风起兮云飞扬
+actionText: 欢迎访问 →
 actionLink: /zh/guide/
 features:
 - title: 简洁至上
@@ -16,4 +16,6 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 
-# Hello VuePress
+# PWA
+
+- 测试pws的正确与否
