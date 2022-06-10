@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>React脚手架的使用 | 忒提斯</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="让我们开始吧!">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.81887141.css" as="style"><link rel="preload" href="/assets/js/app.986d95e2.js" as="script"><link rel="preload" href="/assets/js/2.651acf07.js" as="script"><link rel="preload" href="/assets/js/19.fa4ec028.js" as="script"><link rel="preload" href="/assets/js/3.d639642c.js" as="script"><link rel="prefetch" href="/assets/js/10.6eaee56a.js"><link rel="prefetch" href="/assets/js/11.dcdceed1.js"><link rel="prefetch" href="/assets/js/12.9a57f63b.js"><link rel="prefetch" href="/assets/js/13.aba7d96f.js"><link rel="prefetch" href="/assets/js/14.29364fef.js"><link rel="prefetch" href="/assets/js/15.0ae738a7.js"><link rel="prefetch" href="/assets/js/16.1ee7c1e8.js"><link rel="prefetch" href="/assets/js/17.1fe2d112.js"><link rel="prefetch" href="/assets/js/18.2cf2cb0a.js"><link rel="prefetch" href="/assets/js/20.1152c5b1.js"><link rel="prefetch" href="/assets/js/21.229ca596.js"><link rel="prefetch" href="/assets/js/22.411bea08.js"><link rel="prefetch" href="/assets/js/4.34553110.js"><link rel="prefetch" href="/assets/js/5.c35c6b2c.js"><link rel="prefetch" href="/assets/js/6.c392d1a9.js"><link rel="prefetch" href="/assets/js/7.e470270d.js"><link rel="prefetch" href="/assets/js/8.907bd618.js"><link rel="prefetch" href="/assets/js/9.679c3651.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.81887141.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/assets/img/logo.png" alt="忒提斯" class="logo"> <span class="site-name can-hide">忒提斯</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/introduce/" class="nav-link">
+  介绍
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端笔记" class="dropdown-title"><span class="title">前端笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端笔记" class="mobile-dropdown-title"><span class="title">前端笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Vue
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/vue/vue3.html" class="nav-link">
+  Vue3
+</a></li></ul></li><li class="dropdown-item"><h4>
+          React
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/react/react.html" class="nav-link">
+  React基础
+</a></li></ul></li><li class="dropdown-item"><h4>
+          总结
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/conclusion/way.html" class="nav-link">
+  vue组件通信
+</a></li><li class="dropdown-subitem"><a href="/front-end/conclusion/question.html" class="nav-link">
+  vue问题
+</a></li><li class="dropdown-subitem"><a href="/front-end/conclusion/JsArray.html" class="nav-link">
+  JS数组方法
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  外部链接(百度)
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/introduce/" class="nav-link">
+  介绍
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端笔记" class="dropdown-title"><span class="title">前端笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端笔记" class="mobile-dropdown-title"><span class="title">前端笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Vue
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/vue/vue3.html" class="nav-link">
+  Vue3
+</a></li></ul></li><li class="dropdown-item"><h4>
+          React
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/react/react.html" class="nav-link">
+  React基础
+</a></li></ul></li><li class="dropdown-item"><h4>
+          总结
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/conclusion/way.html" class="nav-link">
+  vue组件通信
+</a></li><li class="dropdown-subitem"><a href="/front-end/conclusion/question.html" class="nav-link">
+  vue问题
+</a></li><li class="dropdown-subitem"><a href="/front-end/conclusion/JsArray.html" class="nav-link">
+  JS数组方法
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  外部链接(百度)
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>React脚手架的使用</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/front-end/react/reactScafflod.html#_4-1、create-react-app创建" class="sidebar-link">4.1、create-react-app创建</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end/react/reactScafflod.html#_4-1-1、步骤" class="sidebar-link">4.1.1、步骤</a></li><li class="sidebar-sub-header"><a href="/front-end/react/reactScafflod.html#_4-4-2、脚手架目录" class="sidebar-link">4.4.2、脚手架目录</a></li><li class="sidebar-sub-header"><a href="/front-end/react/reactScafflod.html#_4-4-3、自定义目录" class="sidebar-link">4.4.3、自定义目录</a></li></ul></li><li><a href="/front-end/react/reactScafflod.html#_4-2、网络请求" class="sidebar-link">4.2、网络请求</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end/react/reactScafflod.html#_4-2-1、axios的使用" class="sidebar-link">4.2.1、axios的使用</a></li><li class="sidebar-sub-header"><a href="/front-end/react/reactScafflod.html#_4-2-2、配置代理" class="sidebar-link">4.2.2、配置代理</a></li></ul></li><li><a href="/front-end/react/reactScafflod.html#_4-3、消息订阅与发送" class="sidebar-link">4.3、消息订阅与发送</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/front-end/react/reactScafflod.html#附录" class="sidebar-link">附录</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end/react/reactScafflod.html#样式的模块化" class="sidebar-link">样式的模块化</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="react脚手架的使用"><a href="#react脚手架的使用" class="header-anchor">#</a> React脚手架的使用</h1> <h2 id="_4-1、create-react-app创建"><a href="#_4-1、create-react-app创建" class="header-anchor">#</a> 4.1、create-react-app创建</h2> <ul><li><a href="https://create-react-app.bootcss.com/" target="_blank" rel="noopener noreferrer">官方网站<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <h3 id="_4-1-1、步骤"><a href="#_4-1-1、步骤" class="header-anchor">#</a> 4.1.1、步骤</h3> <ol><li>全局安装：<code>npm i -g create-react-app</code></li> <li>创建项目：<code>create-react-app 项目名称</code></li> <li>进入目录：<code>cd 项目目录</code></li> <li>启动项目：<code>npm start</code></li></ol> <h3 id="_4-4-2、脚手架目录"><a href="#_4-4-2、脚手架目录" class="header-anchor">#</a> 4.4.2、脚手架目录</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">.</span>
+├── README.md
+├── package-lock.json
+├── package.json
+├── public	----------------- 静态资源文件夹
+│   ├── favicon.ico	----------- 网站页签图标
+│   ├── index.html	----------- 主页面
+│   ├── logo192.png ----------- logo图
+│   ├── logo512.png ----------- logo图
+│   ├── manifest.json --------- 应用加壳配置文件
+│   └── robots.txt ------------ 爬虫协议文件
+└── src --------------------- 源码文件
+    ├── App.css	---------------- App组件的样式
+    ├── App.js ----------------- App组件
+    ├── App.test.js ------------ 用于给App做测试
+    ├── index.css	-------------- 样式
+    ├── index.js --------------- 入口文件
+    ├── logo.svg --------------- logo图
+    ├── reportWebVitals.js ----- 页面性能分析文件<span class="token punctuation">(</span>需要web-vitals库支持<span class="token punctuation">)</span>
+    └── setupTests.js	---------- 组件单元测试的文件<span class="token punctuation">(</span>需要jest-dom库支持<span class="token punctuation">)</span>
+</code></pre></div><h3 id="_4-4-3、自定义目录"><a href="#_4-4-3、自定义目录" class="header-anchor">#</a> 4.4.3、自定义目录</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">.</span>
+├── README.md
+├── package-lock.json
+├── package.json
+├── public	----------------- 静态资源文件夹
+│   ├── favicon.ico	----------- 网站页签图标
+│   └── index.html	----------- 主页面
+└── src --------------------- 源码文件
+    ├── components	------------ 组件文件夹
+         ├── Hello	-------------- Hello组件
+         └── Welcome ------------- Welcome组件
+    ├── favicon.ico	------------ 网站页签图标
+    └── index.html ------------- 主页面
+    ├── App.css	---------------- App组件的样式
+    ├── App.js ----------------- App组件
+    ├── index.css	-------------- 样式
+    └── index.js --------------- 入口文件
+</code></pre></div><ul><li><strong style="color:#DD5145;">index.js</strong></li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">//引入react核心库</span>
+<span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token comment">//引入ReactDOM</span>
+<span class="token keyword">import</span> ReactDOM <span class="token keyword">from</span> <span class="token string">'react-dom'</span>
+<span class="token comment">//引入App组件</span>
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./App'</span>
+
+<span class="token comment">//渲染App到页面</span>
+ReactDOM<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>App<span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'root'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li><strong style="color:#DD5145;">App.js</strong></li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">//创建“外壳”组件App</span>
+<span class="token keyword">import</span> React<span class="token punctuation">,</span><span class="token punctuation">{</span>Component<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token keyword">import</span> Hello <span class="token keyword">from</span> <span class="token string">'./components/Hello'</span>
+<span class="token keyword">import</span> Welcome <span class="token keyword">from</span> <span class="token string">'./components/Welcome'</span>
+
+<span class="token comment">//创建并暴露App组件</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span><span class="token punctuation">{</span>
+	<span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+		<span class="token keyword">return</span> <span class="token punctuation">(</span>
+			<span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+				<span class="token operator">&lt;</span>Hello<span class="token operator">/</span><span class="token operator">&gt;</span>
+				<span class="token operator">&lt;</span>Welcome<span class="token operator">/</span><span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+		<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h2 id="_4-2、网络请求"><a href="#_4-2、网络请求" class="header-anchor">#</a> 4.2、网络请求</h2> <h3 id="_4-2-1、axios的使用"><a href="#_4-2-1、axios的使用" class="header-anchor">#</a> 4.2.1、axios的使用</h3> <div class="language-js extra-class"><pre class="language-js"><code>axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'http://localhost:3000/api1/students'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
+  <span class="token parameter">response</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'成功了'</span><span class="token punctuation">,</span>response<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token parameter">error</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'失败了'</span><span class="token punctuation">,</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token punctuation">)</span>
+</code></pre></div><h3 id="_4-2-2、配置代理"><a href="#_4-2-2、配置代理" class="header-anchor">#</a> 4.2.2、配置代理</h3> <h4 id="方法一"><a href="#方法一" class="header-anchor">#</a> 方法一</h4> <blockquote><p>在package.json中追加如下配置</p></blockquote> <div class="language-json extra-class"><pre class="language-json"><code><span class="token property">&quot;proxy&quot;</span><span class="token operator">:</span><span class="token string">&quot;http://localhost:5000&quot;</span>
+</code></pre></div><ul><li>说明
+<ul><li>优点：配置简单，前端请求资源时可以不加任何前缀</li> <li>缺点：不能配置多个代理</li> <li>工作方式：上述方式配置代理，当请求了3000不存在的资源时，那么该请求会转发给5000 （优先匹配前端资源）</li></ul></li></ul> <h4 id="方法二"><a href="#方法二" class="header-anchor">#</a> 方法二</h4> <blockquote><p>创建代理配置文件</p></blockquote> <ul><li>创建代理配置文件</li> <li>编写<code>setupProxy.js</code>配置具体代理规则
+<ul><li><code>api1</code>：是需要转发的请求(所有带有/api1前缀的请求都会转发给5000)</li> <li><code>target</code>：配置转发目标地址(能返回数据的服务器地址)</li> <li><code>changeOrigin</code>：控制服务器接收到的请求头中host字段的值
+<ul><li><code>changeOrigin设置为true时</code>，服务器收到的请求头中的host为：localhost:5000</li> <li><code>changeOrigin设置为false时</code>，服务器收到的请求头中的host为：localhost:3000</li> <li><code>changeOrigin默认值为false</code>，但我们一般将changeOrigin值设为true</li></ul></li> <li><code>pathRewrite</code>：去除请求前缀，保证交给后台服务器的是正常请求地址(必须配置)</li></ul></li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> proxy <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http-proxy-middleware'</span><span class="token punctuation">)</span>
+
+module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">app</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>
+    <span class="token function">proxy</span><span class="token punctuation">(</span><span class="token string">'/api1'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">target</span><span class="token operator">:</span> <span class="token string">'http://localhost:5000'</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">changeOrigin</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">pathRewrite</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token string-property property">'^/api1'</span><span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token function">proxy</span><span class="token punctuation">(</span><span class="token string">'/api2'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> 
+      <span class="token literal-property property">target</span><span class="token operator">:</span> <span class="token string">'http://localhost:5001'</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">changeOrigin</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">pathRewrite</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token string-property property">'^/api2'</span><span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>说明
+<ul><li>优点：可以配置多个代理，可以灵活的控制请求是否走代理</li> <li>缺点：配置繁琐，前端请求资源时必须加前缀</li></ul></li></ul> <h2 id="_4-3、消息订阅与发送"><a href="#_4-3、消息订阅与发送" class="header-anchor">#</a> 4.3、消息订阅与发送</h2> <ul><li>工具库：<code>PubSubJS</code></li> <li>下载：<code>npm i pubsub-js</code></li> <li>使用
+<ul><li>引入：<code>import PubSub from pubsub-js</code></li> <li>订阅：<code>PubSub.subscribe('delete',(_,data)=&gt;{})</code></li> <li>发布：<code>PubSub.publish('delete',data)</code></li></ul></li></ul> <h2 id="附录"><a href="#附录" class="header-anchor">#</a> 附录</h2> <h3 id="样式的模块化"><a href="#样式的模块化" class="header-anchor">#</a> 样式的模块化</h3> <ul><li>定义文件：<code>xxx/index.module.css</code></li> <li>引入文件：<code>import xxx from 'index.module.css'</code></li> <li>使用：<code>xxx.样式名</code></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/front-end/react/reactLifecycle.html" class="prev">
+        React组件生命周期
+      </a></span> <span class="next"><a href="/front-end/react/reactRouter5.html">
+        React路由
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.986d95e2.js" defer></script><script src="/assets/js/2.651acf07.js" defer></script><script src="/assets/js/19.fa4ec028.js" defer></script><script src="/assets/js/3.d639642c.js" defer></script>
+  </body>
+</html>
